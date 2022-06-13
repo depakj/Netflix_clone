@@ -1,0 +1,143 @@
+.login{
+    position: relative;
+    height: 100vh;
+    background: url('https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png') center no-repeat;
+    background-size: cover;
+}
+.login__logo{
+    width: 150px;
+    height: 90px;
+    position: absolute;
+    top:0;
+    left : 10px;
+}
+
+.login__button{
+    background-color: #fc0a0a;
+    padding: 10px 20px;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: absolute;
+     top: 28px;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.login__body
+{
+        color: white;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        left: 0;
+        right: 0;
+}
+
+.login__body h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.login__body h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login__body h3{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+}
+
+.login__body .login__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__body .login__form input{
+    width: 300px;
+    height: 40px;
+    pad: 0px 15px;
+}
+
+.login__body .login__form button{
+    height: 45px;
+    border:0;
+    padding: 0px 10px;
+    background-color: #fc0a0a;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+}
+
+.login__gradiant{
+    
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+        to right,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0) 60%,
+        rgba(0,0,0,0) 100%
+    ); 
+} 
+
+.SignUpScreen{
+    max-width: 300px;
+    padding : 70px;
+    background-color:rgba(0,0,0,0.85);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -110px;
+}
+
+.SignUpScreen form{
+    display: grid;
+    flex-direction: column;
+    
+}
+.SignUpScreen form input{
+    outline: 0;
+    height:40px;
+    border:0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.SignUpScreen form button{
+    padding: 16px 20px;
+    font-size: 16px;
+    color:#fff;
+    border: 0;
+    border-radius: 5px;
+    background-color:#fc0a0a;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.SignUpScreen form h4 {
+    color: grey;
+
+}
+
+.SignUpScreen form h4 span{
+
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.SignUpScreen form h4:hover span
+{
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,40 @@
+.nav{
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in 0s;
+
+}
+
+.nav__content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav__content .logo{
+    width: 120px;
+    position: relative;
+    cursor: pointer;
+    top: 8px;
+}
+
+.nav_avatar{
+    width: 40px;
+    height: 35px;
+    padding-left: 1180px;
+    padding-top: 10px;
+    position: relative;
+    cursor: pointer;
+    top: 10px;
+    right: 20px;
+    
+}
+
+.nav__black{
+    background-color: black;
+}
